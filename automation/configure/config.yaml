@@ -1,0 +1,204 @@
+
+Devices:
+ - udid: 85cf3554    #adb device ID
+   deviceName: Xiaomi_8
+   platformName: Android
+   platformVersion: 8.1
+   #app: "/home/min/Downloads/neteaseMusic-dev-debug.apk"
+   app: ~ #null
+   appPackage: "com.netease.cloudmusic"
+   appActivity: ".activity.LoadingActivity"
+   serverPort: 4736    # the port of appium, should be unique
+   bootstrapPort: 4836    # -bp Appium bootstrap, should be unique
+   server: 127.0.0.1     # addr
+   status: free
+
+ - udid: VBJ4C18511009741    #adb device ID
+   deviceName: Huawei_10
+   platformName: Android
+   platformVersion: 8.1
+   #app: "/home/min/Downloads/neteaseMusic-dev-debug.apk"
+   app: ~ #null
+   appPackage: "com.netease.cloudmusic"
+   appActivity: ".activity.LoadingActivity"
+   serverPort: 4723    # the port of appium, should be unique
+   bootstrapPort: 4823    # -bp Appium bootstrap, should be unique
+   server: 127.0.0.1     # addr
+   status: free
+
+
+ - udid: 7747c0eaa6200ed088ea2b960ce03c7895bc6f64
+   deviceName: iPhone_7
+   platformName: iOS
+   platformVersion: 11.3.1
+   app: /Users/limin/Downloads/music.ipa
+   appPackage: ~ #null
+   appActivity: ~ #null
+   serverPort: 4724
+   bootstrapPort: 4824
+   server: 127.0.0.1
+   status: free
+
+
+ - udid: b7767b6096f274a9ee065293a4a2a9d141bb50b8
+   deviceName: iPhone_8
+   platformName: iOS
+   platformVersion: 11.3.1
+   app: /Users/limin/Downloads/music.ipa
+   appPackage: ~ #null
+   appActivity: ~ #null
+   serverPort: 4725
+   bootstrapPort: 4825
+   server: 127.0.0.1
+   status: free
+
+ - udid: ca1a8f5b #adb device ID
+   deviceName: Xiaomi_Note2
+   platformName: Android
+   platformVersion: 8.0.0
+   #app: "/home/min/Downloads/neteaseMusic-dev-debug.apk"
+   app: ~ #null
+   appPackage: "com.netease.cloudmusic"
+   appActivity: ".activity.LoadingActivity"
+   serverPort: 4726    # the port of appium, should be unique
+   bootstrapPort: 4826    # -bp Appium bootstrap, should be unique
+   server: 127.0.0.1     # addr
+   status: free
+
+ - udid: 712KPVH1047407 #adb device ID
+   deviceName: Google_Pixel2_XL 
+   platformName: Android
+   platformVersion: 8.1.0
+   app: ~ #null
+   appPackage: "com.netease.cloudmusic"
+   appActivity: ".activity.LoadingActivity"
+   serverPort: 4727    # the port of appium, should be unique
+   bootstrapPort: 4827    # -bp Appium bootstrap, should be unique
+   server: 127.0.0.1     # addr
+   status: free
+
+ - udid: CLB0218428003171 #adb device ID
+   deviceName: Huawei_P20
+   platformName: Android
+   platformVersion: 8.1.0
+   app: ~ #null
+   appPackage: "com.netease.cloudmusic"
+   appActivity: ".activity.LoadingActivity"
+   serverPort: 4728    # the port of appium, should be unique
+   bootstrapPort: 4828    # -bp Appium bootstrap, should be unique
+   server: 127.0.0.1     # addr
+   status: free
+
+ - udid: 996c6061    #adb device ID
+   deviceName: Xiaomi_6
+   platformName: Android
+   platformVersion: 8.0
+   app: ~ #null
+   appPackage: "com.netease.cloudmusic"
+   appActivity: ".activity.LoadingActivity"
+   serverPort: 4729    # the port of appium, should be unique
+   bootstrapPort: 4829    # -bp Appium bootstrap, should be unique
+   server: 127.0.0.1     # addr
+   status: free
+   onReset: true
+
+ - udid: V9D0117B29000577 #adb device ID
+   deviceName: Huawei_Nova3e
+   platformName: Android
+   platformVersion: 8.0
+   app: ~ #null
+   appPackage: "com.netease.cloudmusic"
+   appActivity: ".activity.LoadingActivity"
+   serverPort: 4730    # the port of appium, should be unique
+   bootstrapPort: 4830    # -bp Appium bootstrap, should be unique
+   server: 127.0.0.1     # addr
+   status: free
+   onReset: true
+
+ - udid: 5224b9e224583284e147a16d28dc22dec8929577
+   deviceName: iPhone_6s
+   platformName: iOS
+   platformVersion: 11.4.1
+   app: /Users/yangwenjie/Downloads/music.ipa
+   appPackage: ~ #null
+   appActivity: ~ #null
+   serverPort: 4731
+   bootstrapPort: 4831
+   server: 127.0.0.1
+   status: free
+   onReset: true
+
+ - udid: afbceb0e8b6bbeb08a8c6cfda139dcc9954e483b   #IOS device ID
+   deviceName: iPhone_X
+   platformName: iOS
+   platformVersion: 11.3.1
+   app: /Users/shirly/Downloads/music.ipa
+   appPackage: ~ #null
+   appActivity: ~ #null
+   serverPort: 4733    # the port of appium, should be unique
+   bootstrapPort: 4833    # -bp Appium bootstrap, should be unique
+   server: 127.0.0.1     # addr
+   status: free
+   onReset: true
+
+ - udid: b501f8a2b42aa159e668823d80c0270a8720c265   #IOS device ID
+   deviceName: iPhone_6s_plus
+   platformName: iOS
+   platformVersion: 11.3
+   app: /Users/shirly/Downloads/music.ipa
+   appPackage: ~ #null
+   appActivity: ~ #null
+   serverPort: 4731    # the port of appium, should be unique
+   bootstrapPort: 4831   # -bp Appium bootstrap, should be unique
+   server: 127.0.0.1     # addr
+   status: free
+   onReset: true
+
+ - udid: a84d92a79ad0e26383102ffeaf0885bc55ffd811
+   deviceName: iPhone_7_plus
+   platformName: iOS
+   platformVersion: 10.3.2
+   app: /Users/shirly/Downloads/music.ipa
+   appPackage: ~ #null
+   appActivity: ~ #null
+   serverPort: 4732    # the port of appium, should be unique
+   bootstrapPort: 4832  # -bp Appium bootstrap, should be unique
+   server: 127.0.0.1     # addr
+   status: free
+   onReset: true
+
+ - udid: 173267c84748f9640f402a082f8bc80325253f85
+   deviceName: iPhone_6s
+   platformName: iOS
+   platformVersion: 11.3
+   app: /Users/musicqa/Downloads/music.ipa
+   appPackage: ~ #null
+   appActivity: ~ #null
+   serverPort: 4735    # the port of appium, should be unique
+   bootstrapPort: 4835  # -bp Appium bootstrap, should be unique
+   server: 127.0.0.1     # addr
+   status: free
+   onReset: true
+
+
+Users:
+ - uid: 1
+   #userName: qatest9@163.com
+   #upassword: cWExMjM0 # need to decode
+   userName: listener01@163.com
+   upassword: cWExMjM0NTYh
+   mobile: 77712345678
+   mpassword: cWExMjM0 # need to decode
+   #email: qatest111@163.com
+   #epassword: cWExMjM0 # need to decode
+   email: listener01@163.com
+   epassword: cWExMjM0NTYh
+
+ - uid: 2
+   #for iOS
+   userName: listener09@163.com
+   upassword: cWExMjM0NTYh
+   mobile: 15301787697
+   mpassword: cWExMjM0NTYh
+   email: listener09@163.com
+   epassword: cWExMjM0NTYh
